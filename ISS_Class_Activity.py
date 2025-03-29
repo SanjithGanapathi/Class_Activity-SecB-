@@ -9,6 +9,6 @@ def find_cube_pairs(targ): # included a colon which wasn't present and changed t
     return solutions # changed sol to solutions as initialised above
 
 pairs = find_cube_pairs(1729)
-print("Valid cube pairs for 1728:") # changed printf to print and removed comma
+print("Valid cube pairs for 1729:") # changed printf to print and removed comma and also changed 1728 to 1729
 for a, b in pairs: # changed pair to pairs as declared above and included a colon
-    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1728") # changed printf to print and changed **2 to **3 as above
+    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729") # changed printf to print and changed **2 to **3 as above and changed 1728 to 1729
